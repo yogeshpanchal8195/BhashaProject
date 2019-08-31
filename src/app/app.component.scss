@@ -1,0 +1,34 @@
+.parent{
+    width:80%;
+    margin: 5% 10%;
+    height: 100%;
+    border: 2px solid rgba(0,0,0,0.36);
+    .child{
+        border-bottom: 1px solid rgba(0,0,0,0.56); 
+        min-height: 70px;
+        h1{
+            text-align: center;
+        }
+        button{
+            margin: 8px;
+            background-color: lightslategrey;
+            color: white;
+            &:hover{
+                box-shadow:2px 3px 8px rgba(0,0,0,0.56)
+            }
+        }       
+    }
+    .button-container{
+        padding: 6px;
+        div{
+            justify-content: flex-end;
+            display: flex;
+            button{
+                margin: 8px;
+                font-weight: bold;
+                background-color: darkslategrey;
+                color: white;
+            }
+        }
+    }
+}
